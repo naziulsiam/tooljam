@@ -17,6 +17,22 @@ export const TOOLS: Tool[] = [
     href: '/tools/currency-converter',
     color: 'from-amber-400 to-orange-500',
   },
+  {
+    id: 'password-generator',
+    title: 'Password Generator',
+    description: 'Create strong, secure passwords instantly with customizable length and character types.',
+    icon: 'Lock',
+    href: '/tools/password-generator',
+    color: 'from-blue-400 to-indigo-600',
+  },
+  {
+    id: 'word-counter',
+    title: 'Word Counter',
+    description: 'Count words, characters, sentences, and paragraphs with estimated reading time.',
+    icon: 'FileText',
+    href: '/tools/word-counter',
+    color: 'from-green-400 to-emerald-600',
+  },
 ];
 
 export const POPULAR_CURRENCIES = [
@@ -29,13 +45,14 @@ export const POPULAR_CURRENCIES = [
   { code: 'CHF', name: 'Swiss Franc' },
   { code: 'CNY', name: 'Chinese Yuan' },
   { code: 'INR', name: 'Indian Rupee' },
-  { code: 'BDT', name: 'Bangladeshi Taka' },
 ];
 
 export const FOOTER_LINKS = {
   tools: [
     { label: 'Age Calculator', href: '/tools/age-calculator' },
     { label: 'Currency Converter', href: '/tools/currency-converter' },
+    { label: 'Password Generator', href: '/tools/password-generator' },
+    { label: 'Word Counter', href: '/tools/word-counter' },
   ],
   legal: [
     { label: 'About', href: '/about' },
