@@ -33,6 +33,14 @@ export const TOOLS: Tool[] = [
     href: '/tools/word-counter',
     color: 'from-green-400 to-emerald-600',
   },
+  {
+    id: 'unit-converter',
+    title: 'Unit Converter',
+    description: 'Convert length, weight, and temperature units easily and accurately.',
+    icon: 'Ruler',
+    href: '/tools/unit-converter',
+    color: 'from-purple-400 to-violet-600',
+  },
 ];
 
 export const POPULAR_CURRENCIES = [
@@ -53,6 +61,7 @@ export const FOOTER_LINKS = {
     { label: 'Currency Converter', href: '/tools/currency-converter' },
     { label: 'Password Generator', href: '/tools/password-generator' },
     { label: 'Word Counter', href: '/tools/word-counter' },
+    { label: 'Unit Converter', href: '/tools/unit-converter' },
   ],
   legal: [
     { label: 'About', href: '/about' },
