@@ -41,6 +41,14 @@ export const TOOLS: Tool[] = [
     href: '/tools/unit-converter',
     color: 'from-purple-400 to-violet-600',
   },
+  {
+    id: 'case-converter',
+    title: 'Case Converter',
+    description: 'Convert text to uppercase, lowercase, title case, sentence case, and more.',
+    icon: 'Type',
+    href: '/tools/case-converter',
+    color: 'from-pink-400 to-rose-600',
+  },
 ];
 
 export const POPULAR_CURRENCIES = [
@@ -62,6 +70,7 @@ export const FOOTER_LINKS = {
     { label: 'Password Generator', href: '/tools/password-generator' },
     { label: 'Word Counter', href: '/tools/word-counter' },
     { label: 'Unit Converter', href: '/tools/unit-converter' },
+    { label: 'Case Converter', href: '/tools/case-converter' },
   ],
   legal: [
     { label: 'About', href: '/about' },
