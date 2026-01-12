@@ -57,8 +57,15 @@ export const TOOLS: Tool[] = [
     href: '/tools/color-picker',
     color: 'from-pink-400 to-rose-600',
   },
+  {
+    id: 'json-formatter',
+    title: 'JSON Formatter',
+    description: 'Format, validate, and minify JSON data with instant feedback.',
+    icon: 'Braces',
+    href: '/tools/json-formatter',
+    color: 'from-cyan-400 to-teal-600',
+  },
 ];
-
 export const POPULAR_CURRENCIES = [
   { code: 'USD', name: 'US Dollar' },
   { code: 'EUR', name: 'Euro' },
@@ -81,6 +88,7 @@ export const FOOTER_LINKS = {
     { label: 'Unit Converter', href: '/tools/unit-converter' },
     { label: 'Case Converter', href: '/tools/case-converter' },
     { label: 'Color Picker', href: '/tools/color-picker' },
+    { label: 'JSON Formatter', href: '/tools/json-formatter' },
   ],
   legal: [
     { label: 'About', href: '/about' },
