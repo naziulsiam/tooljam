@@ -37,6 +37,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+      <meta httpEquiv="X-Frame-Options" content="DENY" />
+<meta httpEquiv="X-Content-Type-Options" content="nosniff" />
+<meta httpEquiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+<meta httpEquiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+
         {/* AdSense Script - Add when ready to monetize */}
         {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossOrigin="anonymous"></script> */}
       </head>
