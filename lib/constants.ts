@@ -34,6 +34,14 @@ export const TOOLS: Tool[] = [
     color: 'from-green-400 to-emerald-600',
   },
   {
+  id: 'case-converter',
+  title: 'Case Converter',
+  description: 'Convert text to uppercase, lowercase, title case, sentence case, and more.',
+  icon: 'Type',
+  href: '/tools/case-converter',
+  color: 'from-sky-400 to-blue-600',
+},
+  {
     id: 'unit-converter',
     title: 'Unit Converter',
     description: 'Convert length, weight, and temperature units easily and accurately.',
@@ -42,11 +50,11 @@ export const TOOLS: Tool[] = [
     color: 'from-purple-400 to-violet-600',
   },
   {
-    id: 'case-converter',
-    title: 'Case Converter',
-    description: 'Convert text to uppercase, lowercase, title case, sentence case, and more.',
-    icon: 'Type',
-    href: '/tools/case-converter',
+    id: 'color-picker',
+    title: 'Color Picker',
+    description: 'Pick colors and convert between HEX and RGB formats instantly.',
+    icon: 'Palette',
+    href: '/tools/color-picker',
     color: 'from-pink-400 to-rose-600',
   },
 ];
@@ -61,6 +69,7 @@ export const POPULAR_CURRENCIES = [
   { code: 'CHF', name: 'Swiss Franc' },
   { code: 'CNY', name: 'Chinese Yuan' },
   { code: 'INR', name: 'Indian Rupee' },
+  { code: 'BDT', name: 'Bangladeshi Taka' },
 ];
 
 export const FOOTER_LINKS = {
@@ -71,6 +80,7 @@ export const FOOTER_LINKS = {
     { label: 'Word Counter', href: '/tools/word-counter' },
     { label: 'Unit Converter', href: '/tools/unit-converter' },
     { label: 'Case Converter', href: '/tools/case-converter' },
+    { label: 'Color Picker', href: '/tools/color-picker' },
   ],
   legal: [
     { label: 'About', href: '/about' },
